@@ -15,7 +15,7 @@ require_once ($_SERVER['DOCUMENT_ROOT'] . '/eclipse.org-common/system/nav.class.
  * SPDX-License-Identifier: EPL-2.0
  */
 
-$currentRelease = '0.3.4';
+$currentRelease = '0.3.5';
 
 $projectInfo = 'https://projects.eclipse.org/projects/technology.sisu/';
 $projectSource = 'https://git.eclipse.org/c/sisu/';
