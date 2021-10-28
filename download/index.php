@@ -42,12 +42,6 @@ unless otherwise specified.</i></p>
     &lt;artifactId&gt;org.eclipse.sisu.inject&lt;/artifactId&gt;
     &lt;version&gt;<?php print $currentRelease;?>&lt;/version&gt;
   &lt;/dependency&gt;
-
-  &lt;dependency&gt;
-    &lt;groupId&gt;org.eclipse.sisu&lt;/groupId&gt;
-    &lt;artifactId&gt;org.eclipse.sisu.inject.extender&lt;/artifactId&gt;
-    &lt;version&gt;<?php print $currentRelease;?>&lt;/version&gt;
-  &lt;/dependency&gt;
 </pre>
 
 <pre>
@@ -62,12 +56,6 @@ unless otherwise specified.</i></p>
   &lt;dependency&gt;
     &lt;groupId&gt;org.eclipse.sisu&lt;/groupId&gt;
     &lt;artifactId&gt;org.eclipse.sisu.plexus&lt;/artifactId&gt;
-    &lt;version&gt;<?php print $currentRelease;?>&lt;/version&gt;
-  &lt;/dependency&gt;
-
-  &lt;dependency&gt;
-    &lt;groupId&gt;org.eclipse.sisu&lt;/groupId&gt;
-    &lt;artifactId&gt;org.eclipse.sisu.plexus.extender&lt;/artifactId&gt;
     &lt;version&gt;<?php print $currentRelease;?>&lt;/version&gt;
   &lt;/dependency&gt;
 </pre>
