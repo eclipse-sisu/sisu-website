@@ -16,18 +16,6 @@ ob_start();
 
 <div id="midcolumn">
 
-<h3 id="bugs">Bug Tracker</h3>
-<p>
-  If you encounter a bug or have a feature request, please enter a sufficiently detailed issue in our
-  <a href="<?php print $projectBugs;?>">bug tracker</a>.
-  We especially appreciate issues that come with suggested patches or enough information to be recreated locally.
-</p>
-<p>
-  Please also take time to check if your issue has already been
-  <a href="https://bugs.eclipse.org/bugs/buglist.cgi?classification=Technology&product=Sisu">logged</a>
-  by someone else. 
-</p>
-
 <h3 id="mail">Mailing Lists</h3>
 <p>
   If you have a question about using Sisu that the existing documentation does not answer, we'd like to hear from you on
@@ -39,6 +27,13 @@ ob_start();
   <a href="http://dev.eclipse.org/mhonarc/lists/sisu-users/">user</a>
   or <a href="http://dev.eclipse.org/mhonarc/lists/sisu-dev/">developer</a>
   archives in case your question has been brought up before and was already answered.
+</p>
+
+<h3 id="bugs">Issue Tracker</h3>
+<p>
+  If you encounter a bug or have a feature request, please open a sufficiently detailed issue over at 
+  <a href="https://github.com/eclipse/sisu.inject/issues">GitHub</a>.
+  We especially appreciate reports that come with suggested patches or enough information to be recreated locally.
 </p>
 
 </div>

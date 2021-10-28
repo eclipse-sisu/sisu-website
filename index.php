@@ -35,7 +35,7 @@ $links[] = array(
   'icon' => 'fa-support',
   'url' => 'support/',
   'title' => 'Support',
-  'text' => 'Mailing lists, Bug tracker'
+  'text' => 'Mailing lists, Issue tracker'
 );
 
 // add blank logo and main icons
