@@ -62,7 +62,7 @@ ob_start();
 ?>
 
 <div id="midcolumn">
-  <center><h3><a class="btn btn-huge btn-primary" href="docs/tutorials/index.html">Sisu in 5 minutes</a></h3></center>
+  <center><h3><a class="btn btn-huge btn-primary" href="https://eclipse.github.io/sisu.inject/">Sisu in 5 minutes</a></h3></center>
   <hr/>
   <p>
   Sisu is a modular JSR330-based container that supports classpath scanning, auto-binding, and dynamic auto-wiring. Sisu uses Google-Guice to perform dependency injection and provide the core JSR330 support, but removes the need to write explicit bindings in Guice modules. Integration with other containers via the Eclipse Extension Registry and the OSGi Service Registry is a goal of this project.
