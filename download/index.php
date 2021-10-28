@@ -36,6 +36,7 @@ unless otherwise specified.</i></p>
 <h3 id="maven">Maven Artifacts</h3>
 <p>The following artifacts are also available from the <a href="http://search.maven.org/#search|ga|1|g%3A%22org.eclipse.sisu%22%20AND%20v:%22<?php print $currentRelease;?>%22">Central Repository</a>:</p>
 
+<p>JSR330-based container that supports classpath scanning, auto-binding, and dynamic auto-wiring</p>
 <pre>
   &lt;dependency&gt;
     &lt;groupId&gt;org.eclipse.sisu&lt;/groupId&gt;
@@ -44,6 +45,7 @@ unless otherwise specified.</i></p>
   &lt;/dependency&gt;
 </pre>
 
+<p>Maven plugin that generates annotation indexes for Sisu to avoid classpath scanning at runtime</p>
 <pre>
   &lt;plugin&gt;
     &lt;groupId&gt;org.eclipse.sisu&lt;/groupId&gt;
@@ -52,6 +54,7 @@ unless otherwise specified.</i></p>
   &lt;/plugin&gt;
 </pre>
 
+<p>Implementation of Plexus container API and injection semantics on top of Sisu and Google-Guice</p>
 <pre>
   &lt;dependency&gt;
     &lt;groupId&gt;org.eclipse.sisu&lt;/groupId&gt;
