@@ -21,15 +21,15 @@ $links[] = array(
 );
 $links[] = array(
   'icon' => 'fa-users',
-  'url' => 'developers/',
+  'url' => 'https://github.com/eclipse/sisu.inject',
   'title' => 'Get Involved',
   'text' => 'Source code, Wiki'
 );
 $links[] = array(
   'icon' => 'fa-book',
-  'url' => 'docs/',
+  'url' => 'https://eclipse.github.io/sisu.inject/',
   'title' => 'Documentation',
-  'text' => 'Javadoc, Tutorials'
+  'text' => 'Tutorials, Javadoc'
 );
 $links[] = array(
   'icon' => 'fa-support',
