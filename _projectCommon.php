@@ -18,10 +18,10 @@ require_once ($_SERVER['DOCUMENT_ROOT'] . '/eclipse.org-common/system/nav.class.
 $currentRelease = '0.3.5';
 
 $projectInfo = 'https://projects.eclipse.org/projects/technology.sisu/';
-$projectSource = 'https://git.eclipse.org/c/sisu/';
+$projectSource = 'https://github.com/eclipse/sisu.inject';
 $projectCi = 'https://ci.eclipse.org/sisu/';
-$projectBugs = 'https://bugs.eclipse.org/bugs/describecomponents.cgi?product=Sisu';
-$projectWiki = 'http://wiki.eclipse.org/Sisu';
+$projectBugs = 'https://github.com/eclipse/sisu.inject/issues';
+$projectWiki = 'https://github.com/eclipse/sisu.inject/wiki';
 
 $pageKeywords = 'sisu, dependency injection, inject, ioc, jsr330';
 $pageAuthor = 'Stuart McCulloch';
@@ -30,7 +30,7 @@ $App = new App();
 $Nav = new Nav();
 
 $Nav->addNavSeparator('Sisu', '/sisu/');
-$Nav->addCustomNav('Javadoc', '/sisu/docs/api/org.eclipse.sisu.inject/reference/packages.html', '_self', NULL);
+$Nav->addCustomNav('Javadoc', 'https://eclipse.github.io/sisu.inject/apidocs/reference/packages.html', '_self', NULL);
 $Nav->addCustomNav('Source code', $projectSource, '_self', NULL);
 $Nav->addCustomNav('Project info', $projectInfo, '_self', NULL);
 
