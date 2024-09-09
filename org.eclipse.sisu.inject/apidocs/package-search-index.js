@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"org.eclipse.sisu"},{"l":"org.eclipse.sisu.bean"},{"l":"org.eclipse.sisu.inject"},{"l":"org.eclipse.sisu.launch"},{"l":"org.eclipse.sisu.osgi"},{"l":"org.eclipse.sisu.space"},{"l":"org.eclipse.sisu.wire"},{"l":"org.sonatype.inject"}]
