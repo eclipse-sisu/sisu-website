@@ -30,7 +30,7 @@
           <ul class="breadcrumb">
       <li><a href="index.html">Sisu</a><span class="divider">/</span></li>
     <li class="active">Overview <a href="https://github.com/eclipse-sisu/sisu-project/tree/main/org.eclipse.sisu.plexus/src/site/markdown/conversion-to-jsr330.md"><img src="./images/accessories-text-editor.png" alt="Edit" /></a></li>
-        <li id="publishDate" class="pull-right"><span class="divider">|</span> Last Published: 2024-09-21</li>
+        <li id="publishDate" class="pull-right"><span class="divider">|</span> Last Published: 2024-09-30</li>
           <li id="projectVersion" class="pull-right"><span class="divider">|</span>Version: 0.9.0-SNAPSHOT</li>
         <li class="pull-right"><span class="divider">|</span>
 <a href="https://projects.eclipse.org/projects/technology.sisu" class="externalLink">Eclipse Project Info</a></li>
@@ -523,7 +523,8 @@ public class MyComponent
 }
 </code></pre></section><section><a id="Startable"></a>
 <h3>Startable</h3>
-<p>Support for JSR250 lifecycle annotations is available when enabled for the Plexus wrapper ([Maven 3.5+](<a href="https://issues.apache.org/jira/browse/MNG-6084" class="externalLink">https://issues.apache.org/jira/browse/MNG-6084</a>) enables JSR250 support). If JSR250 support is not enabled then applications can use other techniques to handle start/stop behavior. The examples below show the solution used in Sonatype Nexus, which relies on a modified implementation of the Google-Guava EventBus to manage lifecycle events.</p>
+<p>Support for <a href="../org.eclipse.sisu.inject/lifecycle.html">Sisu/JSR250 lifecycle annotations</a> is available when enabled for the Plexus wrapper ([Maven 3.5+](<a href="https://issues.apache.org/jira/browse/MNG-6084" class="externalLink">https://issues.apache.org/jira/browse/MNG-6084</a>) enables JSR250 support).</p>
+<p>If JSR250 support is not enabled then applications can use other techniques to handle start/stop behavior. The examples below show the solution used in Sonatype Nexus, which relies on a modified implementation of the Google-Guava EventBus to manage lifecycle events.</p>
 
 <pre class="prettyprint linenums"><code>@Component(role=Component.class, hint=&quot;my&quot;)
 public class MyComponent
